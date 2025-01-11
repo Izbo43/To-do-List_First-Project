@@ -1,0 +1,46 @@
+.container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+#form-add-todo {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+#form-add-todo input {
+    flex: 1;
+    border: 1px solid black;
+    height: 2rem;
+    padding: 0 0.5rem;
+}
+
+#form-add-todo button {
+    background: #F4B200;
+    border: none;
+    width: 3rem;
+    cursor: pointer;
+}
+
+#to-do-list {
+    list-style: none;
+    word-wrap: break-word;
+    padding: 0;
+    border: 1px solid #EBEBEC;
+    margin: 0;
+}
+
+#to-do-list li {
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+}
+
+#to-do-list li:nth-child(odd) {
+    background-color: #F6F6F6;
+}
+
+#to-do-list input[type="checkbox"] {
+    margin-right: 1rem;
+}

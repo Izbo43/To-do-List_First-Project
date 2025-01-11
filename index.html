@@ -3,37 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
     <title>To-do-list</title>
 </head>
 <body>
     <div class="container">
-        <h1>To-do-list</h1>
-        <br>
-        <form id="form-add-todo" action="">
-            <label for="" >Insira uma nova tarefa</label>
-            <br>
-            <input type="text" name="task">
-            <button>+</button>
-            <br>
-
-            <ul id="to-do-list">
-                <li>
-                    <input type="checkbox">
-                    <span>Task 1</span>
-                </li>
-                <br>
-                <li>
-                    <input type="checkbox">
-                    <span>Task 2</span>
-                </li>
-                <br>
-                <li>
-                    <input type="checkbox">
-                    <span>Task 3</span>
-                </li>
-                <br>
-            </ul>
+        <form id="form-add-todo">
+            <input type="text" name="task" placeholder="Nova tarefa">
+            <button type="submit">+</button>
         </form>
+        <ul id="to-do-list">
+            <li>
+                <input type="checkbox">
+                <span>Task 1</span>
+            </li>
+            <li>
+                <input type="checkbox">
+                <span>Task 2</span>
+            </li>
+            <li>
+                <input type="checkbox">
+                <span>Task 3</span>
+            </li>
+        </ul>
     </div>
 </body>
 </html>
